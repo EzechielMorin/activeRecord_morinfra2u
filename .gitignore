@@ -7,5 +7,4 @@
 /dataSources/
 /dataSources.local.xml
 
-*.xml
-*.iml
+activeRecords_morinfra2u.iml
