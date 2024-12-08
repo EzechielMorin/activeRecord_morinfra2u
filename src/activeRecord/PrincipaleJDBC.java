@@ -18,12 +18,11 @@ public class PrincipaleJDBC {
         String userName = "root";
         String password = "roi_morin";
         String serverName = "localhost";
-        //String portNumber = "3306";
         String portNumber = "3306"; // Port par défaut sur MAMP
         String tableName = "personne";
 
         // il faut une base nommee testPersonne !
-        String dbName = "qdev";
+        String dbName = "testpersonne";
 
         try {
             // chargement du driver jdbc
@@ -132,6 +131,7 @@ public class PrincipaleJDBC {
             }
 
             // suppression de la table personne
+            System.out.println("***** SUPPRESSION DE LA TABLE *****");
             String drop = "DROP TABLE Personne";
             stmt = connect.createStatement();
             stmt.executeUpdate(drop);

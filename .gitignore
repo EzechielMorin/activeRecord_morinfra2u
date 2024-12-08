@@ -6,5 +6,10 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-
 activeRecords_morinfra2u.iml
+/test/activeRecord/arche_tests/
+
+/src/activeRecord/CompilationMain.java
+/src/activeRecord/PrincipaleJDBC.java
+
+/out
